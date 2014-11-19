@@ -1,8 +1,13 @@
 # files/directories
 /*
 .*
+
 !.vim/
-.vim/.netrwhist
+.vim/*
+!.vim/bundle/*
+!.vim/autoload/*
+!.vim/colors/*
+
 !.config/
 .config/*
 !.config/tint2/
