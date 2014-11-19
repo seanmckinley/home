@@ -1,6 +1,8 @@
 # files/directories
 /*
 .*
+!.vim/
+.vim/.netrwhist
 !.config/
 .config/*
 !.config/tint2/
