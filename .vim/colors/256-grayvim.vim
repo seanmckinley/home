@@ -15,8 +15,7 @@ hi Statement ctermfg=075 ctermbg=None cterm=None
 hi Identifier ctermfg=208 ctermbg=None cterm=Bold
 hi Constant ctermfg=208 ctermbg=None cterm=None
 hi Comment ctermfg=244 ctermbg=None cterm=None
-
-
+hi UnwantedTrailerTrash guibg=None ctermbg=068
 
 hi Cursor ctermfg=Red ctermbg=None cterm=None
 hi SpecialKey ctermfg=87 ctermbg=None cterm=Bold
