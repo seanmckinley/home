@@ -1,0 +1,16 @@
+# files/directories
+/*
+.*
+!.config/
+.config/*
+!.config/tint2/
+.config/tint2/*.jpg
+!.config/openbox/
+.config/openbox/menu.xml
+.config/openbox/autostart*
+
+!.vimrc
+
+!.weechat/
+.weechat/logs/
+.weechat/weechat.log
