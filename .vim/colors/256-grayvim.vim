@@ -6,14 +6,15 @@ let g:colors_name="256-grayvim"
 let python_highlight_all = 1
 let c_gnu = 1
 hi Normal ctermfg=250 ctermbg=234 cterm=None
-hi Function ctermfg=220 ctermbg=234 cterm=None
+hi Function ctermfg=208 ctermbg=234 cterm=None
 hi Conditional ctermfg=075 ctermbg=234 cterm=None
 hi Include ctermfg=135 ctermbg=234 cterm=None
 hi Define  ctermfg=250 ctermbg=234 cterm=None
 hi Type ctermfg=075 ctermbg=None cterm=Bold
 hi Statement ctermfg=075 ctermbg=None cterm=None
-hi Identifier ctermfg=220 ctermbg=None cterm=Bold
-
+hi Identifier ctermfg=208 ctermbg=None cterm=Bold
+hi Constant ctermfg=208 ctermbg=None cterm=None
+hi Comment ctermfg=244 ctermbg=None cterm=None
 
 
 
@@ -23,9 +24,7 @@ hi Directory ctermfg=76 ctermbg=None cterm=None
 hi ErrorMsg ctermfg=124 ctermbg=White cterm=None
 hi PreProc ctermfg=246 ctermbg=None cterm=Bold
 hi Search ctermfg=Red ctermbg=234 cterm=Bold
-hi Comment ctermfg=244 ctermbg=None cterm=None
 hi DiffText ctermfg=88 ctermbg=250 cterm=None
-hi Constant ctermfg=208 ctermbg=None cterm=None
 hi Todo ctermfg=233 ctermbg=118 cterm=Bold
 hi Error	ctermfg=233 ctermbg=124 cterm=Bold
 hi Special ctermfg=160 ctermbg=None cterm=Bold
