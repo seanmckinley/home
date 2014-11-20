@@ -27,3 +27,4 @@
 # Dot files of great importance
 !.Xresources
 !.bash_profile
+!.gitconfig
