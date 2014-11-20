@@ -4,7 +4,7 @@ xterm*termName: xterm-256color
 XTerm*foreground: rgb:ae/ae/ae
 XTerm*background: rgb:1c/1c/1c
 XTerm*faceName: Terminus
-xterm*faceSize: 8
+xterm*faceSize: 10
 
 xterm*color0: rgb:00/00/00
 xterm*color1: rgb:a8/00/00
