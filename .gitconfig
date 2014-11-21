@@ -7,3 +7,5 @@
 	changed = 176
 	added = 067
 	untracked = 071
+[push]
+	default = simple
