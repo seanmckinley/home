@@ -5,13 +5,23 @@ set mouse=a
 set expandtab
 set nu
 set tabstop=2 shiftwidth=2 softtabstop=2
+
+
+" Colorscheme
 colorscheme 256-grayvim
+
+"Syntax Highlighting
+
+" Filetype stuff
+set nocompatible
 syntax on
 filetype on
 filetype indent on
 filetype plugin on
 
-set nocompatible
+set backspace=2
+
+set omnifunc=syntaxcomplete#Complete
 
 " Keep default vim file browser when opening a directory
 let g:NERDTreeHijackNetrw=0
@@ -38,3 +48,4 @@ augroup resCur
   autocmd!
   autocmd BufWinEnter * call ResCur()
 augroup END
+

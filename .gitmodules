@@ -24,4 +24,4 @@
 	url = git://github.com/rodjek/vim-puppet.git
 [submodule ".vim/bundle/vim-syntastic"]
 	path = .vim/bundle/vim-syntastic
-	url = https://github.com/scrooloose/syntastic
+	url = git://github.com/scrooloose/syntastic
