@@ -9,3 +9,5 @@
 	untracked = 071
 [push]
 	default = simple
+[alias]
+  last-tag = "!sh -c \"git tag -l | sort -n -t. -k1,1 -k2,2 -k3,3 -k4,4 | tail -n 1\""
