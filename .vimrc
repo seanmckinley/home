@@ -10,7 +10,9 @@ set tabstop=2 shiftwidth=2 softtabstop=2
 " Colorscheme
 colorscheme 256-grayvim
 
-"Syntax Highlighting
+"Syntastic Highlighting
+hi SpellBad ctermfg=124 ctermbg=235 cterm=None
+hi SpellCap ctermfg=124 ctermbg=235 cterm=None
 
 " Filetype stuff
 set nocompatible
