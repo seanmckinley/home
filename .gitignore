@@ -1,26 +1,2 @@
 # files/directories
-/*
-.*
-
-# Vim colors,plugins, etc
-!.vimrc
-!.vim/
-.vim/*
-!.vim/bundle/*
-!.vim/autoload/*
-!.vim/colors/*
-
-# Configuration files that are suitable for multi-machine distribution
-!.config/
-.config/*
-!.config/tint2/
-.config/tint2/*.jpg
-!.config/openbox/
-.config/openbox/menu.xml
-.config/openbox/autostart*
-
-# Weechat configs
-
-# Dot files of great importance
-!.Xresources
-!.bash_profile
+*
