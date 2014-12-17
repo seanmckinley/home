@@ -28,8 +28,9 @@ set omnifunc=syntaxcomplete#Complete
 " Keep default vim file browser when opening a directory
 let g:NERDTreeHijackNetrw=0
 
-" I don't know yet
+" Stuff for airline
 let g:airline#extensions#tabline#enabled = 1
+set laststatus=2
 
 " Tell vim to remember certain things when we exit
 "  '10  :  marks will be remembered for up to 10 previously edited files
