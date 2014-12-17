@@ -26,8 +26,3 @@ fi
 # - RVM madness -
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-# - Functions -
-function cd {
-  source ~/.bashrc && builtin cd "$@" && ls -l;
-  source ~/.bashrc
-}
