@@ -6,6 +6,9 @@ set expandtab
 set nu
 set tabstop=2 shiftwidth=2 softtabstop=2
 
+" File opening tab completion
+set wildmode=longest,list,full
+set wildmenu
 
 " Colorscheme
 colorscheme 256-grayvim
