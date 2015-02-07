@@ -8,7 +8,7 @@ let c_gnu = 1
 hi Normal ctermfg=250 ctermbg=235 cterm=None
 hi Function ctermfg=172 ctermbg=235 cterm=None
 hi Conditional ctermfg=075 ctermbg=235 cterm=None
-hi Include ctermfg=135 ctermbg=235 cterm=None
+hi Include ctermfg=116 ctermbg=235 cterm=None
 hi Define  ctermfg=250 ctermbg=235 cterm=None
 hi Type ctermfg=075 ctermbg=None cterm=Bold
 hi Statement ctermfg=075 ctermbg=None cterm=None
