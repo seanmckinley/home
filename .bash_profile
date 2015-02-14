@@ -14,6 +14,7 @@ fi
 # - Aliases -
 alias ls="ls -G"
 alias ssh="ssh -A"
+alias tree="tree -C"
 
 # - PS1 madness -
 if [[ "$os_name" == 'Linux' ]]; then
