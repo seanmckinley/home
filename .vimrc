@@ -6,6 +6,9 @@ set expandtab
 set nu
 set tabstop=2 shiftwidth=2 softtabstop=2
 
+" File opening tab completion
+set wildmode=longest,list,full
+set wildmenu
 
 " Colorscheme
 colorscheme 256-grayvim
@@ -28,8 +31,9 @@ set omnifunc=syntaxcomplete#Complete
 " Keep default vim file browser when opening a directory
 let g:NERDTreeHijackNetrw=0
 
-" I don't know yet
+" Stuff for airline
 let g:airline#extensions#tabline#enabled = 1
+set laststatus=2
 
 " Tell vim to remember certain things when we exit
 "  '10  :  marks will be remembered for up to 10 previously edited files
