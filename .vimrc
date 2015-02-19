@@ -43,6 +43,21 @@ set laststatus=2
 "  n... :  where to save the viminfo files
 set viminfo='10,\"100,:20,%,n~/.viminfo
 
+" Set temporary directories:
+
+" swap files (.swp) in a common location
+" // means use the file's full path
+set dir=~/.vim/_swap//
+
+" backup files (~) in a common location if possible
+set backup
+set backupdir=~/.vim/_backup/,~/tmp,.
+
+" turn on undo files, put them in a common location
+set undofile
+set undodir=~/.vim/_undo/
+
+
 function! ResCur()
   if line("'\"") <= line("$")
     normal! g`"
