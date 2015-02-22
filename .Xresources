@@ -2,7 +2,7 @@
 
 xterm*termName: xterm-256color
 XTerm*foreground: rgb:ae/ae/ae
-XTerm*background: rgb:1c/1c/1c
+XTerm*background: rgb:26/26/26
 XTerm*faceName: Terminus
 xterm*faceSize: 10
 
