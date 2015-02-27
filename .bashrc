@@ -16,6 +16,11 @@ fi
 alias ls="ls -G"
 alias ssh="ssh -A"
 
+# - Ignore duplicated history events -
+export HISTCONTROL=ignoreboth
+shopt -s histappend
+export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
+
 # - PS1 madness -
 GIT_PS1_SHOWDIRTYSTATE=true
 if [[ "$os_name" == 'Linux' ]]; then
