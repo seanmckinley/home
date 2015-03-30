@@ -17,6 +17,7 @@ hi Constant ctermfg=141 ctermbg=None cterm=None
 hi Comment ctermfg=246 ctermbg=None cterm=None
 hi String ctermfg=255 ctermbg=None cterm=None
 hi UnwantedTrailerTrash guibg=None ctermbg=068
+hi SignColumn guibg=None ctermbg=236
 
 hi Cursor ctermfg=Red ctermbg=None cterm=None
 hi SpecialKey ctermfg=87 ctermbg=None cterm=Bold
@@ -41,3 +42,8 @@ hi PmenuSel ctermfg=None ctermbg=Gray cterm=Bold
 hi PmenuSbar ctermfg=DarkGray ctermbg=DarkGray cterm=None
 hi PmenuThumb ctermfg=Gray ctermbg=Gray cterm=None
 "vim: sw=4
+" Diff
+hi DiffAdd ctermfg=034 ctermbg=236 cterm=None
+hi DiffDelete ctermfg=167 ctermbg=236 cterm=None
+hi DiffChange ctermfg=135 ctermbg=236 cterm=None
+hi DiffText ctermfg=075 ctermbg=236 cterm=None
