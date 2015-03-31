@@ -57,6 +57,7 @@ set backupdir=~/.vim/_backup/,~/tmp,.
 set undofile
 set undodir=~/.vim/_undo/
 
+let g:RspecSplitHorizontal=0
 
 function! ResCur()
   if line("'\"") <= line("$")
