@@ -45,5 +45,5 @@ hi PmenuThumb ctermfg=Gray ctermbg=Gray cterm=None
 " Diff
 hi DiffAdd ctermfg=034 ctermbg=236 cterm=None
 hi DiffDelete ctermfg=167 ctermbg=236 cterm=None
-hi DiffChange ctermfg=135 ctermbg=236 cterm=None
-hi DiffText ctermfg=075 ctermbg=236 cterm=None
+hi DiffChange ctermfg=229 ctermbg=236 cterm=None
+hi DiffText ctermfg=229 ctermbg=236 cterm=None
