@@ -59,6 +59,11 @@ set undodir=~/.vim/_undo/
 
 let g:RspecSplitHorizontal=0
 
+
+" Custom Commands
+:command Ae :Tab /=
+:command Ad :Tab /-
+
 function! ResCur()
   if line("'\"") <= line("$")
     normal! g`"
