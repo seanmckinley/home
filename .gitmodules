@@ -37,3 +37,6 @@
 [submodule ".vim/bundle/.vim/bundle/vim-rspec"]
 	path = .vim/bundle/.vim/bundle/vim-rspec
 	url = git://github.com/skwp/vim-rspec.git
+[submodule ".vim/bundle/indentLine"]
+	path = .vim/bundle/indentLine
+	url = git://github.com/Yggdroot/indentLine.git
