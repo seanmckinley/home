@@ -37,3 +37,6 @@
 [submodule ".vim/bundle/indentLine"]
 	path = .vim/bundle/indentLine
 	url = git://github.com/Yggdroot/indentLine.git
+[submodule ".vim/bundle/vim-tabmerge"]
+	path = .vim/bundle/vim-tabmerge
+	url = git://github.com/vim-scripts/Tabmerge.git
