@@ -40,3 +40,6 @@
 [submodule ".vim/bundle/vim-tabmerge"]
 	path = .vim/bundle/vim-tabmerge
 	url = git://github.com/vim-scripts/Tabmerge.git
+[submodule ".vim/bundle/vim-matchit"]
+	path = .vim/bundle/vim-matchit
+	url = git://github.com/edsono/vim-matchit.git
