@@ -43,3 +43,6 @@
 [submodule ".vim/bundle/vim-matchit"]
 	path = .vim/bundle/vim-matchit
 	url = git://github.com/edsono/vim-matchit.git
+[submodule ".vim/bundle/vim-incbool"]
+	path = .vim/bundle/vim-incbool
+	url = git://github.com/can3p/incbool.vim.git
