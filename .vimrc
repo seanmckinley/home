@@ -60,7 +60,7 @@ set undodir=~/.vim/_undo/
 let g:RspecSplitHorizontal=0
 
 " line indentation characters
-let g:indentLine_char = '.'
+let g:indentLine_char = '|'
 
 " Custom Commands
 :command Ae :Tab /=
