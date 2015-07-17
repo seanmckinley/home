@@ -63,6 +63,7 @@ let g:RspecSplitHorizontal=0
 
 " line indentation characters
 let g:indentLine_char = '|'
+" let g:indentLine_char = 'U+E0A3'   Uncomment if github issue gets resolved - https://github.com/Yggdroot/indentLine/issues/98
 
 " Custom Commands
 :command Ae :Tab /=
