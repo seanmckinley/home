@@ -12,6 +12,11 @@ if [[ "$os_name" == 'Darwin' ]]; then
   export EDITOR=/usr/bin/vim
 fi
 
+# - Git Completion -
+if [ -f ~/.scripts/git-completion.bash ]; then
+  . ~/.scripts/git-completion.bash
+fi
+
 # - OS agnostic Aliases -
 alias ls="ls -G"
 alias ssh="ssh -A"
