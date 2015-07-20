@@ -12,7 +12,7 @@ set wildmode=longest,list,full
 set wildmenu
 
 " Colorscheme
-colorscheme 256-grayvim
+colorscheme genericdc
 
 "Syntastic Highlighting
 hi SpellBad ctermfg=124 ctermbg=235 cterm=None
