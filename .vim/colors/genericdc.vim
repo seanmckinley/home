@@ -7,7 +7,7 @@ endif
 
 let g:colors_name = "genericdc"
 
-hi Normal       ctermfg=253 ctermbg=235
+hi Normal       ctermfg=253 ctermbg=234
 hi Special      ctermfg=253 ctermbg=NONE
 hi Comment      ctermfg=239 ctermbg=NONE cterm=NONE
 hi Constant     ctermfg=249 ctermbg=NONE
@@ -24,9 +24,9 @@ hi Repeat       ctermfg=244 ctermbg=NONE
 hi Operator     ctermfg=249 ctermbg=NONE
 hi Error        ctermfg=9   ctermbg=NONE
 hi TODO         ctermfg=202 ctermbg=NONE cterm=NONE
-hi linenr       ctermfg=250 ctermbg=235
-hi CursorLineNR ctermfg=250 ctermbg=235
-hi SignColumn   guibg=None ctermbg=235
+hi linenr       ctermfg=250 ctermbg=234
+hi CursorLineNR ctermfg=250 ctermbg=234
+hi SignColumn   guibg=None ctermbg=234
 hi UnwantedTrailerTrash guibg=None ctermbg=255
 
 hi Visual          ctermfg=251 ctermbg=237 cterm=italic
