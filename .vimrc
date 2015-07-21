@@ -5,7 +5,7 @@ set mouse=a
 set expandtab
 set nu
 set tabstop=2 shiftwidth=2 softtabstop=2
-set paste
+" set paste
 
 " File opening tab completion
 set wildmode=longest,list,full
