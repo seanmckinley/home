@@ -46,3 +46,6 @@
 [submodule ".vim/bundle/vim-incbool"]
 	path = .vim/bundle/vim-incbool
 	url = git://github.com/can3p/incbool.vim.git
+[submodule ".vim/bundle/vim-endwise"]
+	path = .vim/bundle/vim-endwise
+	url = https://github.com/tpope/vim-endwise
