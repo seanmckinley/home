@@ -28,6 +28,7 @@ hi linenr       ctermfg=250 ctermbg=234
 hi CursorLineNR ctermfg=250 ctermbg=234
 hi SignColumn   guibg=None ctermbg=234
 hi UnwantedTrailerTrash guibg=None ctermbg=255
+hi Search        ctermfg=202 ctermbg=NONE
 
 hi Visual          ctermfg=251 ctermbg=237 cterm=italic
 hi SpecialKey      ctermfg=236 ctermbg=NONE
