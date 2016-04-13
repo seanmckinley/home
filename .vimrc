@@ -32,6 +32,9 @@ set omnifunc=syntaxcomplete#Complete
 " Keep default vim file browser when opening a directory
 let g:NERDTreeHijackNetrw=0
 
+" vim eats the json
+"let g:vim_json_syntax_conceal = 0
+
 " Stuff for airline
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
