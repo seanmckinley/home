@@ -7,6 +7,10 @@ set nu
 set tabstop=2 shiftwidth=2 softtabstop=2
 " set paste
 
+" Disable indent line plugin for json files
+" as it fucks with concealment
+autocmd FileType json let g:indentLine_enabled = 0
+
 " File opening tab completion
 set wildmode=longest,list,full
 set wildmenu
@@ -31,9 +35,6 @@ set omnifunc=syntaxcomplete#Complete
 
 " Keep default vim file browser when opening a directory
 let g:NERDTreeHijackNetrw=0
-
-" vim eats the json
-"let g:vim_json_syntax_conceal = 0
 
 " Stuff for airline
 let g:airline_powerline_fonts = 1
@@ -66,8 +67,6 @@ let g:RspecSplitHorizontal=0
 
 " line indentation characters
 let g:indentLine_char = '|'
-"let g:indentLine_char = '︙'
-" let g:indentLine_char = 'U+E0A3'   Uncomment if github issue gets resolved - https://github.com/Yggdroot/indentLine/issues/98
 
 " Custom Commands
 :command Ae :Tab /=
