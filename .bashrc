@@ -5,6 +5,7 @@ os_name=`uname`
 source ~/.git-prompt.sh
 
 # - Exports -
+export HISTCONTROL=ignoredups
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
@@ -35,3 +36,4 @@ fi
 
 # - RVM madness -
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
