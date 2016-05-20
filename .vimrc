@@ -11,6 +11,9 @@ set tabstop=2 shiftwidth=2 softtabstop=2
 " as it fucks with concealment
 autocmd FileType json let g:indentLine_enabled = 0
 
+" Nerd tree
+autocmd vimenter * NERDTree
+
 " File opening tab completion
 set wildmode=longest,list,full
 set wildmenu
