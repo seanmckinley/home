@@ -11,8 +11,12 @@ set tabstop=2 shiftwidth=2 softtabstop=2
 " as it fucks with concealment
 autocmd FileType json let g:indentLine_enabled = 0
 
-" Nerd tree
+" Start nerd tree
 autocmd vimenter * NERDTree
+" Once nerd tree opens, switch focus to open file rather than nerd tree panel
+autocmd VimEnter * wincmd p
+" Closes vim if the only open window is nerd tree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 " File opening tab completion
 set wildmode=longest,list,full
