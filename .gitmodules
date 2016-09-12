@@ -54,10 +54,13 @@
 	url = git://github.com/elzr/vim-json.git
 [submodule ".vim/bundle/vim-javascript"]
 	path = .vim/bundle/vim-javascript
-	url = git://github.com/pangloss/vim-javascript
+	url = git://github.com/pangloss/vim-javascript.git
 [submodule ".vim/bundle/vim-jsonlint"]
 	path = .vim/bundle/vim-jsonlint
-	url = git://github.com/joestelmach/lint.vim
+	url = git://github.com/joestelmach/lint.vim.git
 [submodule ".vim/bundle/vim-jshint"]
 	path = .vim/bundle/vim-jshint
-	url = git://github.com/wookiehangover/jshint.vim
+	url = git://github.com/wookiehangover/jshint.vim.git
+[submodule ".vim/bundle/vim-visual_increment"]
+	path = .vim/bundle/vim-visual_increment
+	url = git://github.com/triglav/vim-visual-increment.git
