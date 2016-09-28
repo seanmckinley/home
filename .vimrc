@@ -17,6 +17,8 @@ autocmd vimenter * NERDTree
 autocmd VimEnter * wincmd p
 " Closes vim if the only open window is nerd tree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+" Ensure nerd tree opens independent of current file
+let g:nerdtree_tabs_open_on_console_startup=1
 
 " File opening tab completion
 set wildmode=longest,list,full

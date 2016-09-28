@@ -64,3 +64,6 @@
 [submodule ".vim/bundle/vim-visual_increment"]
 	path = .vim/bundle/vim-visual_increment
 	url = git://github.com/triglav/vim-visual-increment.git
+[submodule ".vim/bundle/vim-nerdtree_tabs"]
+	path = .vim/bundle/vim-nerdtree_tabs
+	url = git://github.com/jistr/vim-nerdtree-tabs.git
