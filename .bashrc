@@ -31,7 +31,7 @@ if [[ "$os_name" == 'Linux' ]]; then
   PS1="\n[\u@\h] [\e[01;38;05;075m\w\e[0m] \n[ \T ]\e[01;38;05;075m >\e[0m "
 elif [[ "$os_name" == 'Darwin' ]]; then
   alias vim="/usr/local/Cellar/vim/7.4.488/bin/vim"
-  PS1='\n[\u \e[01;38;05;067m\w \e[0m] \n[ \T ] |\e$(__git_ps1)\n -> '
+  PS1='\n[\u \e[01;38;05;067m\w \e[0m] \n[ \T ] |\e[01;38;05;35;m$(__git_ps1)\e[0m\n -> '
 fi
 
 # - RVM madness -
