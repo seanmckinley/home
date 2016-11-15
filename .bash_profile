@@ -23,6 +23,11 @@ if [[ "$os_name" == 'Linux' ]]; then
 elif [[ "$os_name" == 'Darwin' ]]; then
   PS1="\n[ \u \e[01;38;05;067m\w \e[0m] \n[ \T ] |\e[01;38;05;076m$(__git_ps1) \e[0m\n> "
   export PATH="/usr/local/bin:$PATH:$HOME/.rvm/bin"
+
+  # Setting PATH for Python 3.5
+  # The original version is saved in .bash_profile.pysave
+  PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
+  export PATH
 fi
 
 # - RVM madness -
