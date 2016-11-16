@@ -26,8 +26,8 @@ hi Error        ctermfg=9   ctermbg=NONE
 hi TODO         ctermfg=202 ctermbg=NONE cterm=NONE
 hi linenr       ctermfg=250 ctermbg=234
 hi CursorLineNR ctermfg=250 ctermbg=234
-hi SignColumn   guibg=None ctermbg=234
-hi UnwantedTrailerTrash guibg=None ctermbg=255
+hi SignColumn   guibg=NONE ctermbg=234
+hi UnwantedTrailerTrash guibg=NONE ctermbg=255
 hi Search        ctermfg=202 ctermbg=NONE
 
 hi Visual          ctermfg=251 ctermbg=237 cterm=italic
