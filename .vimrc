@@ -30,6 +30,7 @@ colorscheme genericdc
 "Syntastic Highlighting
 hi SpellBad ctermfg=124 ctermbg=235 cterm=None
 hi SpellCap ctermfg=124 ctermbg=235 cterm=None
+let g:syntastic_quiet_messages = {'level': 'warnings'}
 
 " Filetype stuff
 set nocompatible
