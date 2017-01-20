@@ -6,6 +6,9 @@ source ~/.git-prompt.sh
 
 # - Exports -
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export GOROOT=/opt/go
+export GOPATH=~/workspace/go
+export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
 
 if [[ "$os_name" == 'Darwin' ]]; then
   export EDITOR=/usr/bin/vim
