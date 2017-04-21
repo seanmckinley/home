@@ -5,6 +5,7 @@ if exists("syntax on")
   syntax reset
 endif
 
+set t_Co=256
 let g:colors_name = "genericdc"
 
 hi Normal       ctermfg=253 ctermbg=234
