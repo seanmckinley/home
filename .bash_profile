@@ -9,6 +9,8 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export GOROOT=/opt/go
 export GOPATH=~/workspace/go
 export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
+export M2_HOME=~/.mvn/apache-maven-3.3.9
+export PATH=$PATH:$M2_HOME/bin
 
 if [[ "$os_name" == 'Darwin' ]]; then
   export EDITOR=/usr/bin/vim

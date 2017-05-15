@@ -10,6 +10,7 @@ set tabstop=2 shiftwidth=2 softtabstop=2
 " Disable indent line plugin for json files
 " as it fucks with concealment
 autocmd FileType json let g:indentLine_enabled = 0
+autocmd FileType yaml syntax off
 
 " Start nerd tree
 autocmd vimenter * NERDTree
