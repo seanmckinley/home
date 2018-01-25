@@ -34,6 +34,7 @@ alias ssh="ssh -A"
 GIT_PS1_SHOWDIRTYSTATE=true
 if [[ "$os_name" == 'Linux' ]]; then
   alias ls="ls --color=always"
+  alias tmux="tmux -2"
   PS1="\n[\u@\h] [\e[01;38;05;075m\w\e[0m] \n[ \T ]\e[01;38;05;075m >\e[0m "
 elif [[ "$os_name" == 'Darwin' ]]; then
   alias vim="/usr/local/Cellar/vim/8.0.0086/bin/vim"

@@ -64,3 +64,6 @@
 [submodule ".vim/bundle/vim-nerdtree_tabs"]
 	path = .vim/bundle/vim-nerdtree_tabs
 	url = git://github.com/jistr/vim-nerdtree-tabs.git
+[submodule "/home/alayde/.vim/bundle/vim-elixir"]
+	path = /home/alayde/.vim/bundle/vim-elixir
+	url = https://github.com/elixir-lang/vim-elixir.git
