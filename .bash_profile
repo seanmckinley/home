@@ -12,10 +12,6 @@ export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
 export M2_HOME=~/.mvn/apache-maven-3.3.9
 export PATH=$PATH:$M2_HOME/bin
 
-if [[ "$os_name" == 'Darwin' ]]; then
-  export EDITOR=/usr/bin/vim
-fi
-
 # - Aliases -
 alias ls="ls -G"
 alias ssh="ssh -A"
