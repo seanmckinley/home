@@ -8,7 +8,7 @@ endif
 set t_Co=256
 let g:colors_name = "genericdc"
 
-hi Normal       ctermfg=253 ctermbg=234
+hi Normal       ctermfg=253 ctermbg=235
 hi Special      ctermfg=253 ctermbg=NONE
 hi Comment      ctermfg=239 ctermbg=NONE cterm=NONE
 hi Constant     ctermfg=249 ctermbg=NONE
@@ -25,20 +25,20 @@ hi Repeat       ctermfg=244 ctermbg=NONE
 hi Operator     ctermfg=249 ctermbg=NONE
 hi Error        ctermfg=9   ctermbg=NONE
 hi TODO         ctermfg=202 ctermbg=NONE cterm=NONE
-hi linenr       ctermfg=250 ctermbg=234
-hi CursorLineNR ctermfg=250 ctermbg=234
-hi SignColumn   guibg=NONE ctermbg=234
+hi linenr       ctermfg=250 ctermbg=235
+hi CursorLineNR ctermfg=250 ctermbg=235
+hi SignColumn   guibg=NONE ctermbg=235
 hi UnwantedTrailerTrash guibg=NONE ctermbg=255
 hi Search        ctermfg=202 ctermbg=NONE
 
-hi Visual          ctermfg=251 ctermbg=237 cterm=italic
+hi Visual          ctermfg=251 ctermbg=235 cterm=italic
 hi SpecialKey      ctermfg=236 ctermbg=NONE
 hi NonText         ctermfg=236 ctermbg=NONE
 hi MatchParen      ctermfg=253 ctermbg=242
 hi Pmenu           ctermfg=251 ctermbg=237
 hi PmenuSel        ctermfg=235 ctermbg=111
 
-hi ColorColumn ctermbg=236
+hi ColorColumn ctermbg=235
 
 hi link character       constant
 hi link number          constant

@@ -95,3 +95,10 @@ augroup resCur
   autocmd BufWinEnter * call ResCur()
 augroup END
 
+" Ansible-vim configurations
+au BufNewFile,BufRead *.yaml,*.yml set filetype=yaml.ansible
+let g:ansible_unindent_after_newline = 1
+
+" Stop auto indenting a line forever to the right when something like
+" this happens: Key: 'test:key'
+autocmd VimEnter * setlocal indentkeys-=<:>
